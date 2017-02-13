@@ -1,0 +1,25 @@
+.door {
+  .handlebar {}
+  .window {}
+  .mirror {}
+
+  .paint {
+    .proximity-sensor {
+      sensor-strengh: 0.5;
+    }
+  }
+}
+
+.interior {
+  .proximity-sensor {
+    sensor-strengh: 0.2;
+  }
+}
+
+.car--super-safe {
+  .paint {
+    .proximity-sensor {
+      sensor-strengh: 1.0;
+    }
+  }
+}

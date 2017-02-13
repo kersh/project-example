@@ -1,0 +1,33 @@
+// Colours
+// =====================================================================================================================
+//-- Basic colours
+$clr--black: #000;
+$clr--black-alt: #666;
+$clr--white: #fff;
+$clr--grey: #9E9E9E;
+$clr--grey-light: #BDBDBD;
+$clr--grey-dark: #757575;
+
+//-- Project colours
+$clr--accent: #228ae6;
+$clr--secondary: #263238;
+$clr--success: #37b24d;
+$clr--warning: #fcc419;
+$clr--danger: #f03e3e;
+
+
+// Transitions/Animations
+// =====================================================================================================================
+$tr-duration--fast: 0.05s;
+$tr-duration--default: 0.16s;
+$tr-duration--long: 0.3s;
+$tr-timing-fn--default: cubic-bezier(0.455,  0.030, 0.515, 0.955);
+$tr-timing-fn--smooth: ease-in;
+
+
+// Typography
+// =====================================================================================================================
+$font-family--sans-serif: 'Fira Sans', Arial, Helvetica, sans-serif;
+$font-size--base: 1.3rem;
+$line-height--base: auto;
+$font-weight--normal: normal;

@@ -1,0 +1,9 @@
+@mixin apply-btn-states($clr) {
+  &:hover {
+    color: $clr;
+  }
+
+  &:active {
+    color: $clr;
+  }
+}
