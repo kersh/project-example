@@ -1,0 +1,5 @@
+@mixin touch($additional_root_selector: '') {
+  @at-root .touchevents#{$additional_root_selector} & {
+    @content;
+  }
+}

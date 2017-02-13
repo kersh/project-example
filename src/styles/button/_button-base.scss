@@ -2,4 +2,9 @@
   font-size: 1.3rem;
   outline: none;
   user-select: none;
+  padding: 2px;
+
+  @include touch {
+    padding: 10px;
+  }
 }
